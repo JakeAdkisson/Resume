@@ -1,0 +1,322 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+article {
+	margin: 5px 50px;
+	padding: 5px 20px;
+}
+a{
+	color:black;
+}
+#navbar {
+	overflow:hidden;
+	background-color:BLACK;
+	position:fixed;
+	top:0;
+	width:100%;
+	padding: .5rem 1rem;
+  z-index: 9000;
+}
+#navbar * {
+  display: inline-block;
+}
+.custom-header{
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  margin: 5px 50px;
+  color:white;
+  font-size:70px;
+  display:inline;
+}
+.custom-header a{
+  color:white;
+}
+.navbar_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.navbar_items{
+	display:inline;
+  margin: 0 15px 0 0;
+}
+.navbar_link{
+  color:white;
+  font-family: 'Press Start 2P', cursive;}
+/*@font-face{
+  font-family:'digital-7';
+  src:url('https://www.1001fonts.com/digital-7-font.html');
+}*/
+.clock_link{
+  float:right;
+}
+#count_down{
+	color:GREY;
+	display:inline;
+	float:right;
+	/*padding-top:54px;
+  padding-left:5px;*/
+  font-size:14px;
+  /*margin-bottom:0;*/
+  font-family: 'Press Start 2P', cursive;
+}
+.sub_count_down{
+	color:GREY;
+	float:right;
+	font-size:14px;
+	/*margin-top:54px;
+  margin-bottom:0;*/
+  font-family: 'Press Start 2P', cursive;
+}
+.header {
+	background-color:BLACK;
+}
+.header image{
+	opacity:0.5;
+}
+.intro {
+	height:100vh;
+	text-align:center;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image_background{
+	z-index:-1;
+	opacity: 0.5;
+  filter: alpha(opacity=50);
+  position:absolute;
+  height:100%;
+  width:100%;
+}
+.intro_text {
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-size:70px;
+}
+.intro_text_first {
+	padding-top:10%;
+}
+#resume {
+  height: 550vh;
+  overflow-y:hidden;
+}
+.resume {
+  background-image: url("https://jakeadkisson.s3.amazonaws.com/images/white_background.jpg");
+  background-repeat:repeat-y;
+  background-size:cover;
+  background-position:center center;
+}
+.div_body_first {
+  margin-top:10%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:5%;
+}
+.div_body {
+  margin:5% 5%;
+  word-wrap:break-word;
+}
+.big_line{
+  position: relative; 
+  /*top: 20px;*/ 
+  border: none; 
+  height: 6px; 
+  background: black; 
+  /*margin-bottom: 50px;*/
+}
+.small_line{
+  position: relative; 
+  top: 20px; 
+  border: none; 
+  height: 2px; 
+  background: black; 
+  margin-bottom: 50px;
+}
+.small_body{
+  font-family:Tahoma;
+  color:gray;
+  /*word-wrap:break-word;*/
+}
+.small_body{
+  font-family:Tahoma;
+  color:gray;
+}
+.see_more_button{
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: Tahoma;
+  color: black;
+  cursor: pointer;
+}
+.see_more_image{
+  width:700px;
+  height:350px;
+  margin-left:20%;
+  display: none;
+}
+#nothing_block{
+  display:block;
+}
+#nothing_hidden{
+  display:hidden;
+}
+.languges {
+  float:left;
+  margin-left:10%;
+}
+.classes_took{
+  float:right;
+}
+.column {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.custom-images{
+  width:125px;
+  height:125px
+}
+.column {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.custom-images{
+  width:100px;
+  height:100px;
+  margin-bottom:20px;
+  display:block;
+}
+.custom-overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  width:100%;
+  height:100%;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.custom-container{
+  position:relative;
+}
+.custom-container:hover .custom-overlay {
+  opacity: 1;
+}
+
+.custom-overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.custom-overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  width:100%;
+  height:100%;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.custom-container{
+  position:relative;
+}
+.custom-container:hover .custom-overlay {
+  opacity: 1;
+}
+
+.custom-overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.sub_ref{
+  font-family:Tahoma;
+  color: gray;
+}
+.refrences_box{
+  /*padding-left: 17%;
+  padding-right:17%;*/
+  padding:5%;
+  padding-left:20%;
+  padding-bottom:10%;
+}
+.refrences_pic{
+  float:left;
+  width:146px;
+  height:146px;
+}
+.refrences_body{
+  font-family:Tahoma;
+  color: gray;
+  padding-left:20%;
+}
+.contact {
+  height:100vh;
+  background-image: url("https://jakeadkisson.s3.amazonaws.com/images/gray_background.jpg");
+  background-repeat:repeat-y;
+  background-size:cover;
+  background-position:center center;
+  overflow-y:hidden;
+}
+.contact_body{
+  padding: 17% 20%;
+}
+.profile{
+  width:240px;
+  height:300px;
+}
+.profile_text{
+  font-family:Finger Paint;
+  color:black;
+}
+.profile_text a{
+  color:black;
+}
+.profile_pic_box{
+  float:left;
+}
+.profile_text_box{
+  float:right;
+}
+#student_year{
+}
+.cool_stuff {
+	/*background-color:blue;*/
+	height:100vh;
+	overflow-y:hidden;
+}
+.snake_game_box {
+  margin-top: 130px;
+  margin-left: 25%;
+}
