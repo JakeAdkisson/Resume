@@ -1,8 +1,6 @@
 TODO: (Not ordered in proirity)
 
--) Add to Relevent CourseWare
-
--) Add to Experience Senior Project
+-) Add to Miscellaneous
 
 -) Fix demensions for phone
 
@@ -14,11 +12,11 @@ TODO: (Not ordered in proirity)
 
 	-) Countdown to next full moon?
 
-	-) Uptime for seconds lived? (Would be pretty morbid if an unexpected death tho lol)
+	-) Uptime for seconds lived?
 
 	-) Uptime for seconds the Queen has lived?
 
-	-) Uptime since Henry Ford has beend dead? (Or Walt Disney)
+	-) Uptime since Henry Ford has beend dead? (Or Walt Disney, ...)
 
 -) Add another JS game
 
